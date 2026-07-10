@@ -1,0 +1,15 @@
+{
+    "token": "MTUyNTIyOTY3ODUxODk5NzE1NA.GNJRt6.ApNe_2xyPuO2MKqCEiISUUPjmO88dw_MHfmxLY",
+    "clientId": "1525229678518997154",
+    "guildId": "1522697989964038315",
+
+    "staffRole": "1522698144339464404",
+
+    "database": {
+        "host": "51.83.49.125",
+        "user": "u233991_OQAt8Dason",
+        "password": "f^U+cs74Z9TEPrHwiZOJyZ0M",
+        "database": "s233991_db1783354186802",
+        "port": 3306
+    }
+}
