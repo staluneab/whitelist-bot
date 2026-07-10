@@ -1,6 +1,13 @@
 const { Client, GatewayIntentBits, Collection } = require("discord.js");
 const fs = require("fs");
-const config = require("./config.json");
+require("dotenv").config();
+
+const config = {
+    token: process.env.TOKEN,
+    clientId: process.env.CLIENT_ID,
+    guildId: process.env.GUILD_ID,
+    staffRole: process.env.STAFF_ROLE
+};
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds]
