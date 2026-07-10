@@ -1,12 +1,12 @@
+require("dotenv").config();
 const mysql = require("mysql2/promise");
-const config = require("./config.json");
 
 const pool = mysql.createPool({
-    host: config.database.host,
-    user: config.database.user,
-    password: config.database.password,
-    database: config.database.database,
-    port: config.database.port,
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+    port: process.env.DB_PORT,
     waitForConnections: true,
     connectionLimit: 10
 });
